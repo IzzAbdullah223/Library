@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Goudy Bookletter 1911";
+   
+}
+
+body{
+    background-color: #cbd5e1
+}
+
+.headerContainer{
+background-color: white;
+box-shadow: 4px 4px 10px rgba(67, 89, 99, 0.521);
+
+}
+
+.Heading{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button{
+    font-size: 2rem;
+    border: none;
+    background-color: #f1f5f92a;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.buttonContainer button:hover{
+    background-color: #f1f5f9;
+
+}
+
+.buttonContainer button::first-letter{
+    color: green;
+    font-size: 2.5rem;
+}
+
+dialog{
+    background-color: #f1f5f98e;
+    border: white;
+    border-radius: 10px;
+    min-width: 20%;
+    margin:  auto;
+
+    
+}
+
+.modalContent{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="text"]{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: rgba(14, 14, 14, 0.753) solid 1px;
+
+}
+
+.checkboxContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkboxContainer input{
+    zoom: 1.7;
+}
+
+.modalButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modalButtons button{
+    font-size: 1.4rem;
+    padding: 5px 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.modalButtons>button:first-child{
+    background-color: rgba(19, 201, 19, 0.493);
+}
+
+.modalButtons>button:first-child:hover{
+    background-color: rgba(39, 173, 39, 0.658);
+}
+
+.modalButtons>button:last-child:hover{
+    background-color: rgba(204, 204, 204, 0.938);
+}
+
+.modal label{
+    font-size: 1.4rem;
+}
+
+.modal::backdrop { 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.bookCardContainer{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.bookCard{
+    background-color: white;
+    min-width: 20%;
+    font-size: 2rem;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+}
+
+.bookCardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+
+
+
+.ReadandRemove{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+button{
+    font-size: 2rem;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.read{
+    background-color: rgba(37, 190, 37, 0.568);
+}
+
+.notread{
+    background-color: red;
+}
+
+.ReadandRemove button:last-child{
+    background-color: rgba(81, 83, 81, 0.021);
+}
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+
+ 
